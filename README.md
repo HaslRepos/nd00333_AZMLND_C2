@@ -13,16 +13,13 @@ The main steps in the project are illustrated in the following Diagram:
 
 ![diagram](images/01-architecture.png)
 
-1. *Authentication*: 
-2. *Auto ML Model*: 
-3. *Deploy the best model*: 
-4. *Enable logging*:
-5. *Consume model endpoints*: 
-6. *Create and publish a pipeline*: 
-7. *Documentation*
-
-
-*TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model".
+* *Authentication*: Prepare infrastructure enabling connection to Azure Machine Learning Studio
+* *AutoML Model*: Upload dataset, create compute cluster and configure an experiment with AutoML 
+* *Deploy the best model*: Deploy the best model provided by AutoML to allow interaction via API service
+* *Enable logging*: Enable Application Insights
+* *Consume model endpoints*: Interact with the model via API
+* *Create and publish a pipeline*: Automate the workflow (Create Model - Deploy Model - Consume Model) with the SDK
+* *Documentation*: Document the model deployed
 
 ## Key Steps
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps.
