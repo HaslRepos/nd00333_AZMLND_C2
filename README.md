@@ -131,6 +131,14 @@ AutoML provides comprehensive metrics on the model for further analysis
 ### Documentation
 
 
+![Swagger](images/18-swagger.png)
+
+
+
+![Swagger](images/19-swagger2.png)
+
+
+
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 
