@@ -67,13 +67,65 @@ AutoML provides comprehensive metrics on the model for further analysis
 ### Deploy the best model
 
 
+
+![Deploy best model](images/11-best-model-deploy.png)
+
+
+
+![Best model deployed](images/12-best-model-deployed.png)
+
+
+
+![Endpoint details](images/13-endpoint-best-model.png)
+
+
+
+![Endpoint more details](images/14-endpoint-best-model2.png)
+
+
 ### Enable logging
+
+
+
+![Enable logging](images/15-enable-logging.png)
+
+
+
+![Enable logging](images/16-enable-logging2.png)
+
+
+
+![Application Insight enabled](images/17-endpoint-best-model-application-insight-enabled.png)
 
 
 ### Consume model endpoints
 
 
+
+![Consume Endpoint](images/20-consume-endpoint.png)
+
+
 ### Create and publish a pipeline
+
+
+
+![Create pipeline](images/21-create-pipeline.png)
+
+
+
+![Create pipeline](images/22-create-pipeline2.png)
+
+
+
+![Pipeline](images/23-pipeline.png)
+
+
+
+![Pipeline](images/24-pipeline2.png)
+
+
+
+![Pipeline endpoint](images/25-pipeline-endpoint.png)
 
 
 ### Documentation
