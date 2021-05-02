@@ -22,7 +22,30 @@ The main steps in the project are illustrated in the following Diagram:
 * *Documentation*: Document the model deployed
 
 ## Key Steps
-*TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps.
+
+### Authentication
+The lab provided by Udacity does not allow to create a security principal. Therefore this step is not performed.
+
+### AutoML Model
+
+Upload the Bank Marketing dataset (Source: [Bank Marketing](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv))
+
+![Dataset](images/02-dataset.png)
+
+### Deploy the best model
+
+
+### Enable logging
+
+
+### Consume model endpoints
+
+
+### Create and publish a pipeline
+
+
+### Documentation
+
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
