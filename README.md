@@ -11,7 +11,7 @@ This is been achieved in two different ways:
 
 The main steps in the project are illustrated in the following Diagram:
 
-![diagram](images/01-architecture.png)
+![Architecture](images/01-architecture.png)
 
 * *Authentication*: Prepare infrastructure enabling connection to Azure Machine Learning Studio
 * *AutoML Model*: Upload dataset, create compute cluster and configure an experiment with AutoML 
@@ -24,13 +24,35 @@ The main steps in the project are illustrated in the following Diagram:
 ## Key Steps
 
 ### Authentication
+
 The lab provided by Udacity does not allow to create a security principal. Therefore this step is not performed.
 
 ### AutoML Model
 
-Upload the Bank Marketing dataset (Source: [Bank Marketing](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv))
+Upload and register the Bank Marketing dataset (Source file: [Bank Marketing](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv)) 
 
 ![Dataset](images/02-dataset.png)
+
+Setting up a compute cluster based on *Standard_DS12_v2* virtual machines and a minimum number of 1 node.
+
+![Compute Cluster](images/03-compute-cluster.png)
+
+Definition of the AutoML run. First, we need to select the previously uploaded Bank Marketing dataset.
+
+![Configure AutoML](images/04-create-automl.png)
+
+Next we need to specify a name for the experiment, define a target column in the dataset (Target column: Y) and select the compute cluster.
+
+![Configure AutoML](images/05-create-automl2.png)
+
+
+
+![Configure AutoML](images/07-create-automl3.png)
+
+
+
+![Configure AutoML](images/06-create-automl4.png)
+
 
 ### Deploy the best model
 
