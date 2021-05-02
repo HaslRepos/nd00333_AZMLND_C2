@@ -45,11 +45,11 @@ Next we need to specify a name for the experiment, define a target column in the
 
 ![Configure AutoML](images/05-create-automl2.png)
 
-
+The machine learning task type for the experiment is a classification problem without enabling *Deep Learning*.
 
 ![Configure AutoML](images/07-create-automl3.png)
 
-
+Additionally the *Exit Criterion* is reduced to 1 hour and the *maximum number of concurrent iterations* is limited to 5.
 
 ![Configure AutoML](images/06-create-automl4.png)
 
