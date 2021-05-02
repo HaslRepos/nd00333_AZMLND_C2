@@ -53,6 +53,18 @@ Additionally the *Exit Criterion* is reduced to 1 hour and the *maximum number o
 
 ![Configure AutoML](images/06-create-automl4.png)
 
+AutoML trains several models on the registered dataset and determines their metrics such as AUC or accuracy.
+
+![AutoML run completed](images/08-automl-completed.png)
+
+The best model (with regard to accuracy) was a **Voting Ensemble** model with an accuracy of **0.91866**.
+
+![Best model](images/09-best-model.png)
+
+AutoML provides comprehensive metrics on the model for further analysis
+
+![Best model metrics](images/10-best-model-metrics.png)
+
 
 ### Deploy the best model
 
