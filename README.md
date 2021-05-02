@@ -85,7 +85,7 @@ AutoML provides comprehensive metrics on the model for further analysis
 
 ### Enable logging
 
-
+[logs.py](https://github.com/HaslRepos/nd00333_AZMLND_C2/blob/master/logs.py)
 
 ![Enable logging](images/15-enable-logging.png)
 
@@ -100,7 +100,7 @@ AutoML provides comprehensive metrics on the model for further analysis
 
 ### Consume model endpoints
 
-
+[endpoint.py](https://github.com/HaslRepos/nd00333_AZMLND_C2/blob/master/endpoint.py)
 
 ![Consume Endpoint](images/20-consume-endpoint.png)
 
