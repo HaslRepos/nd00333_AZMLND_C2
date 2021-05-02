@@ -1,6 +1,11 @@
 # Operationalizing Machine Learning
 
-*TODO:* Write an overview to your project.
+The Operationlalizing Machine Learning project is part of the Machine Learning Engineer with Microsoft Azure Nanodegree Program on Udacity.
+
+In the project we demonstrate to build a Machine Learning model, deploy the model into production and consume the model via an API. 
+This is been achieved in two different ways:
+1. Manually within the the Azure Machine Learning Studio
+2. In Python by using the SDK
 
 ## Architectural Diagram
 
