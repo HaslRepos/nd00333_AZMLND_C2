@@ -59,8 +59,6 @@ AutoML trains several models on the registered dataset and determines their metr
 
 The best model (with regard to accuracy) was a **Voting Ensemble** model with an accuracy of **0.91866**.
 
-![Best model](images/09-best-model.png)
-
 AutoML provides comprehensive metrics on the model for further analysis
 
 ![Best model metrics](images/10-best-model-metrics.png)
