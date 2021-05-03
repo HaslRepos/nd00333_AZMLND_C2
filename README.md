@@ -83,17 +83,13 @@ The main outcome of the deployment process is a successful established endpoint.
 
 ### Enable logging
 
-Azure provides a tool called *Application Insights* to detect anomalies and visualize performance of applications. Since we did not enable this tool before the deployment, we do this subsequently via the Python SDK. (Code: 
-
-[logs.py](https://github.com/HaslRepos/nd00333_AZMLND_C2/blob/master/logs.py)
+Azure provides a tool called *Application Insights* to detect anomalies and visualize performance of applications. Since we did not enable this tool before the deployment, we do this subsequently via the Python SDK. (Source Code: [logs.py](https://github.com/HaslRepos/nd00333_AZMLND_C2/blob/master/logs.py)). The Script requires interactive login.
 
 ![Enable logging](images/15-enable-logging.png)
 
-
-
 ![Enable logging](images/16-enable-logging2.png)
 
-
+Running the Python Script enables *Application Insights*.
 
 ![Application Insight enabled](images/17-endpoint-best-model-application-insight-enabled.png)
 
