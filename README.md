@@ -96,10 +96,10 @@ Running the Python Script enables *Application Insights*.
 
 ### Swagger Documentation
 
-
+Azure provides documentation (swagger.json file) of the web services deployed in ML Studio, explaining the different request types (such as POST and GET). 
+Swagger is an Interface Description Language for describing RESTful APIs expressed using JSON. (Wiki)
 
 ![Swagger](images/18-swagger.png)
-
 
 
 ![Swagger](images/19-swagger2.png)
