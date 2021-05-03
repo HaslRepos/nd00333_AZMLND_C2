@@ -107,7 +107,13 @@ Swagger is an Interface Description Language for describing RESTful APIs express
 
 ### Consume model endpoints
 
+Model endpoints can be accessed by a HTTP API. We will 
+
 [endpoint.py](https://github.com/HaslRepos/nd00333_AZMLND_C2/blob/master/endpoint.py)
+
+'''
+
+'''
 
 ![Consume Endpoint](images/20-consume-endpoint.png)
 
