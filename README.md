@@ -167,15 +167,19 @@ data = {"data":
 
 ### Create and publish a pipeline
 
+Azure Pipelines offers Continuous Integration (CI) and (Continuous Delivery (CD) to consistently create, test and deploy code. We make use of that functionality to automate all of the manual tasks we performed so far.
 
+We use a Jupyter Notebook (Source Code: ) to create and run the Pipeline.
 
 ![Create pipeline](images/21-create-pipeline.png)
 
 
+During runtime we get a lot of logging and status information in the SDK.
 
 ![Create pipeline](images/22-create-pipeline2.png)
 
 
+Alternatively we can also access the console in Azure ML Studio to retrieve this information:
 
 ![Pipeline](images/23-pipeline.png)
 
@@ -192,5 +196,4 @@ data = {"data":
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 
-## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+
