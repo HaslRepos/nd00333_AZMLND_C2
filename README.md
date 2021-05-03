@@ -59,17 +59,16 @@ AutoML trains several models on the registered dataset and determines their metr
 
 The best model (with regard to accuracy) was a **Voting Ensemble** model with an accuracy of **0.91866**.
 
-AutoML provides comprehensive metrics on the model for further analysis
+AutoML provides comprehensive metrics on the model for further analysis.
 
 ![Best model metrics](images/10-best-model-metrics.png)
 
 
 ### Deploy the best model
 
-
+Once the best model is identified, we want to use it to predict whether the client subscribed a term deposit based on various input parameters. Next step is therefore to deploy the model in Azure which allows interaction with the model via standardized HTTP APIs. We want to deploy the model on *Azure Container Instance (ACI)* with *Authentication* enabled.
 
 ![Deploy best model](images/11-best-model-deploy.png)
-
 
 
 ![Best model deployed](images/12-best-model-deployed.png)
