@@ -107,12 +107,59 @@ Swagger is an Interface Description Language for describing RESTful APIs express
 
 ### Consume model endpoints
 
-Model endpoints can be accessed by a HTTP API. We will 
+Now we want to interact with our model to predict whether a client subscribed a term deposit. Again we utilize the Python SDK (Source Code: [endpoint.py](https://github.com/HaslRepos/nd00333_AZMLND_C2/blob/master/endpoint.py)). Azure ML Studio provides the necessary *URI* and *Key* to access the service.
 
-[endpoint.py](https://github.com/HaslRepos/nd00333_AZMLND_C2/blob/master/endpoint.py)
+The requests to the service get the following payload attached:
 
-'''
-
+'''python
+data = {"data":
+        [
+          {
+            "age": 17,
+            "campaign": 1,
+            "cons.conf.idx": -46.2,
+            "cons.price.idx": 92.893,
+            "contact": "cellular",
+            "day_of_week": "mon",
+            "default": "no",
+            "duration": 971,
+            "education": "university.degree",
+            "emp.var.rate": -1.8,
+            "euribor3m": 1.299,
+            "housing": "yes",
+            "job": "blue-collar",
+            "loan": "yes",
+            "marital": "married",
+            "month": "may",
+            "nr.employed": 5099.1,
+            "pdays": 999,
+            "poutcome": "failure",
+            "previous": 1
+          },
+          {
+            "age": 87,
+            "campaign": 1,
+            "cons.conf.idx": -46.2,
+            "cons.price.idx": 92.893,
+            "contact": "cellular",
+            "day_of_week": "mon",
+            "default": "no",
+            "duration": 471,
+            "education": "university.degree",
+            "emp.var.rate": -1.8,
+            "euribor3m": 1.299,
+            "housing": "yes",
+            "job": "blue-collar",
+            "loan": "yes",
+            "marital": "married",
+            "month": "may",
+            "nr.employed": 5099.1,
+            "pdays": 999,
+            "poutcome": "failure",
+            "previous": 1
+          },
+      ]
+    }
 '''
 
 ![Consume Endpoint](images/20-consume-endpoint.png)
