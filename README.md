@@ -73,13 +73,24 @@ Once the best model is identified, we want to use it to predict whether the clie
 
 ![Best model deployed](images/12-best-model-deployed.png)
 
-
+The main outcome of the deployment process is a successful established endpoint. Apart from infrastructure details and a link to the endpoint, Azure also provides information on how to consume and interact with the service.
 
 ![Endpoint details](images/13-endpoint-best-model.png)
 
 
-
 ![Endpoint more details](images/14-endpoint-best-model2.png)
+
+
+### Documentation
+
+
+
+![Swagger](images/18-swagger.png)
+
+
+
+![Swagger](images/19-swagger2.png)
+
 
 
 ### Enable logging
@@ -125,16 +136,6 @@ Once the best model is identified, we want to use it to predict whether the clie
 
 
 ![Pipeline endpoint](images/25-pipeline-endpoint.png)
-
-
-### Documentation
-
-
-![Swagger](images/18-swagger.png)
-
-
-
-![Swagger](images/19-swagger2.png)
 
 
 
