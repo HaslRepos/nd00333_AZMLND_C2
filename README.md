@@ -81,19 +81,9 @@ The main outcome of the deployment process is a successful established endpoint.
 ![Endpoint more details](images/14-endpoint-best-model2.png)
 
 
-### Documentation
-
-
-
-![Swagger](images/18-swagger.png)
-
-
-
-![Swagger](images/19-swagger2.png)
-
-
-
 ### Enable logging
+
+Azure provides a tool called *Application Insights* to detect anomalies and visualize performance of applications. Since we did not enable this tool before the deployment, we do this subsequently via the Python SDK. (Code: 
 
 [logs.py](https://github.com/HaslRepos/nd00333_AZMLND_C2/blob/master/logs.py)
 
@@ -106,6 +96,17 @@ The main outcome of the deployment process is a successful established endpoint.
 
 
 ![Application Insight enabled](images/17-endpoint-best-model-application-insight-enabled.png)
+
+
+### Documentation
+
+
+
+![Swagger](images/18-swagger.png)
+
+
+
+![Swagger](images/19-swagger2.png)
 
 
 ### Consume model endpoints
