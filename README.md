@@ -94,7 +94,7 @@ Running the Python Script enables *Application Insights*.
 ![Application Insight enabled](images/17-endpoint-best-model-application-insight-enabled.png)
 
 
-### Documentation
+### Swagger Documentation
 
 
 
