@@ -200,3 +200,6 @@ Alternatively we can also access the console in Azure ML Studio to retrieve this
 ![Pipeline endpoint](project_2_operationalizing_machine_learning.mp4)
 
 
+## Standout Suggestions
+
+In the project we mainly concentrated on operationalizing ML in Azure. We did not go into much details optimizing the Models. The dataset used to train the model for example is highly imbalanced which might have a negative effect on the trained model leading to biased predictions. To be evaluated in further experiments.
