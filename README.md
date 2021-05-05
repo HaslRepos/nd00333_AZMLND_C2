@@ -176,13 +176,15 @@ We use a Jupyter Notebook (Source Code: ) to create and run the Pipeline.
 
 During runtime we get a lot of logging and status information in the SDK.
 
+![Pipeline](images/23-pipeline.png)
+
+
 ![Create pipeline](images/22-create-pipeline2.png)
 
 
 Alternatively we can also access the console in Azure ML Studio to retrieve this information:
 
-![Pipeline](images/23-pipeline.png)
-
+![Pipeline](images/23-pipeline3.png)
 
 
 ![Pipeline](images/24-pipeline2.png)
