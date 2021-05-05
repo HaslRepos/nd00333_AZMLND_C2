@@ -197,8 +197,7 @@ Alternatively we can also access the console in Azure ML Studio to retrieve this
 
 ## Screen Recording
 
-![Pipeline endpoint](project_2_operationalizing_machine_learning.mp4)
-
+![Screencast](https://drive.google.com/file/d/1Q4mb2UiF-ariXywD1DgUTmd5qpm69wsS/view?usp=sharing)
 
 ## Standout Suggestions
 
