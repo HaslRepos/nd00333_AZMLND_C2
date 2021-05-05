@@ -199,7 +199,6 @@ Alternatively we can also access the console in Azure ML Studio to retrieve this
 
 [Screencast](https://drive.google.com/file/d/1Q4mb2UiF-ariXywD1DgUTmd5qpm69wsS/view?usp=sharing)
 
-https://drive.google.com/file/d/1Q4mb2UiF-ariXywD1DgUTmd5qpm69wsS/view?usp=sharing
 
 ## Standout Suggestions
 
