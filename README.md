@@ -194,6 +194,7 @@ Alternatively we can also access the console in Azure ML Studio to retrieve this
 
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+
+![Pipeline endpoint](project_2_operationalizing_machine_learning.mp4)
 
 
