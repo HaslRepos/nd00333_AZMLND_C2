@@ -78,7 +78,7 @@ The best model (with regard to accuracy) was a **Voting Ensemble** model with an
 
 AutoML provides comprehensive metrics on the model for further analysis.
 
-**Metrics of the best model**
+**Best model metrics**
 
 ![Best model metrics](images/10-best-model-metrics.png)
 
@@ -87,7 +87,7 @@ AutoML provides comprehensive metrics on the model for further analysis.
 
 Once the best model is identified, we want to use it to predict whether the client subscribed a term deposit based on various input parameters. Next step is therefore to deploy the model in Azure which allows interaction with the model via standardized HTTP APIs. We want to deploy the model on *Azure Container Instance (ACI)* with *Authentication* enabled.
 
-**Configuring Deployment of best model**
+**Configuring deployment of best model**
 
 ![Deploy best model](images/11-best-model-deploy.png)
 
@@ -97,8 +97,11 @@ Once the best model is identified, we want to use it to predict whether the clie
 
 The main outcome of the deployment process is a successful established endpoint. Apart from infrastructure details and a link to the endpoint, Azure also provides information on how to consume and interact with the service.
 
+**Endpoint details**
+
 ![Endpoint details](images/13-endpoint-best-model.png)
 
+**Application Insights not yet enabled...**
 
 ![Endpoint more details](images/14-endpoint-best-model2.png)
 
@@ -107,11 +110,15 @@ The main outcome of the deployment process is a successful established endpoint.
 
 Azure provides a tool called *Application Insights* to detect anomalies and visualize performance of applications. Since we did not enable this tool before the deployment, we do this subsequently via the Python SDK. (Source Code: [logs.py](https://github.com/HaslRepos/nd00333_AZMLND_C2/blob/master/logs.py)). The Script requires interactive login.
 
+**Enabling Application Insights ... Print logs**
+
 ![Enable logging](images/15-enable-logging.png)
 
 ![Enable logging](images/16-enable-logging2.png)
 
 Running the Python Script enables *Application Insights*.
+
+**Application Insights is now enabled...**
 
 ![Application Insight enabled](images/17-endpoint-best-model-application-insight-enabled.png)
 
@@ -185,6 +192,15 @@ data = {"data":
 '''
 
 ![Consume Endpoint](images/20-consume-endpoint.png)
+
+### Benchmark
+
+We utilize *Apache Benchmark* to benchmark our deployed model, which provides information on requests per second, average time per request, number of failed requests.
+(Source Code: [benchmark.sh](https://github.com/HaslRepos/nd00333_AZMLND_C2/blob/master/benchmark.sh))
+
+**Benchmark Measurement**
+
+![Benchmark](images/21-benchmark.png)
 
 
 ### Create and publish a pipeline
