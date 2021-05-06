@@ -70,11 +70,15 @@ Additionally the *Exit Criterion* is reduced to 1 hour and the *maximum number o
 
 AutoML trains several models on the registered dataset and determines their metrics such as AUC or accuracy.
 
+**AutoML run completed**
+
 ![AutoML run completed](images/08-automl-completed.png)
 
 The best model (with regard to accuracy) was a **Voting Ensemble** model with an accuracy of **0.91866**.
 
 AutoML provides comprehensive metrics on the model for further analysis.
+
+**Metrics of the best model**
 
 ![Best model metrics](images/10-best-model-metrics.png)
 
@@ -83,8 +87,11 @@ AutoML provides comprehensive metrics on the model for further analysis.
 
 Once the best model is identified, we want to use it to predict whether the client subscribed a term deposit based on various input parameters. Next step is therefore to deploy the model in Azure which allows interaction with the model via standardized HTTP APIs. We want to deploy the model on *Azure Container Instance (ACI)* with *Authentication* enabled.
 
+**Configuring Deployment of best model**
+
 ![Deploy best model](images/11-best-model-deploy.png)
 
+**Best model deployed**
 
 ![Best model deployed](images/12-best-model-deployed.png)
 
