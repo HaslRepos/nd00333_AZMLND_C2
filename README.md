@@ -34,9 +34,12 @@ The lab provided by Udacity does not allow to create a security principal. There
 
 Upload and register the Bank Marketing dataset (Source file: [Bank Marketing](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv)) 
 
+**Registered Datasets**
+
 ![Dataset](images/02-dataset.png)
 
 Setting up a compute cluster based on *Standard_DS12_v2* virtual machines and a minimum number of 1 node.
+
 
 ![Compute Cluster](images/03-compute-cluster.png)
 
