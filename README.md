@@ -249,3 +249,4 @@ A Screen Recording of the project is available on Google Drive:
 ## Standout Suggestions
 
 In the project we mainly concentrated on operationalizing ML in Azure. We did not go into much details optimizing the Models. The dataset used to train the model for example is highly imbalanced which might have a negative effect on the trained model leading to biased predictions. To be evaluated in further experiments.
+Additionally Information provided by Apache Benchmark can help us analyse the model's performance to make further refinements.
