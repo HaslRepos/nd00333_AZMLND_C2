@@ -128,8 +128,11 @@ Running the Python Script enables *Application Insights*.
 Azure provides documentation (swagger.json file) of the web services deployed in ML Studio, explaining the different request types (such as POST and GET). 
 Swagger is an Interface Description Language for describing RESTful APIs expressed using JSON. (Wiki)
 
+*Model's endpoint Swagger documentation*
+
 ![Swagger](images/18-swagger.png)
 
+*More details...*
 
 ![Swagger](images/19-swagger2.png)
 
@@ -191,7 +194,10 @@ data = {"data":
     }
 '''
 
+*The Model's response*
+
 ![Consume Endpoint](images/20-consume-endpoint.png)
+
 
 ### Benchmark
 
@@ -207,15 +213,17 @@ We utilize *Apache Benchmark* to benchmark our deployed model, which provides in
 
 Azure Pipelines offers Continuous Integration (CI) and (Continuous Delivery (CD) to consistently create, test and deploy code. We make use of that functionality to automate all of the manual tasks we performed so far.
 
-We use a Jupyter Notebook (Source Code: ) to create and run the Pipeline.
+We use a Jupyter Notebook (Source Code: [aml-pipelines-with-automated-machine-learning-step.ipynb](https://github.com/HaslRepos/nd00333_AZMLND_C2/blob/master/aml-pipelines-with-automated-machine-learning-step.ipynb)) to create and run the Pipeline.
 
 ![Create pipeline](images/21-create-pipeline.png)
 
-
 During runtime we get a lot of logging and status information in the SDK.
 
-![Pipeline](images/23-pipeline.png)
+*Run Details*
 
+![Run Details](images/22-create-pipeline-run-details.png)
+
+*Pipeline created*
 
 ![Create pipeline](images/22-create-pipeline2.png)
 
