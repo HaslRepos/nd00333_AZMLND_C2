@@ -34,28 +34,37 @@ The lab provided by Udacity does not allow to create a security principal. There
 
 Upload and register the Bank Marketing dataset (Source file: [Bank Marketing](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv)) 
 
-**Registered Datasets**
+**Dataset registered**
 
 ![Dataset](images/02-dataset.png)
 
 Setting up a compute cluster based on *Standard_DS12_v2* virtual machines and a minimum number of 1 node.
 
+**Compute Cluster up and running**
 
 ![Compute Cluster](images/03-compute-cluster.png)
 
 Definition of the AutoML run. First, we need to select the previously uploaded Bank Marketing dataset.
 
+**Configuring AutoML - Select Dataset**
+
 ![Configure AutoML](images/04-create-automl.png)
 
 Next we need to specify a name for the experiment, define a target column in the dataset (Target column: Y) and select the compute cluster.
+
+**Configuring AutoML - Select Target column and Compute Cluster**
 
 ![Configure AutoML](images/05-create-automl2.png)
 
 The machine learning task type for the experiment is a classification problem without enabling *Deep Learning*.
 
+**Configuring AutoML - Define task type**
+
 ![Configure AutoML](images/07-create-automl3.png)
 
 Additionally the *Exit Criterion* is reduced to 1 hour and the *maximum number of concurrent iterations* is limited to 5.
+
+**Configuring AutoML - Set exit criterion and concurrent iterations**
 
 ![Configure AutoML](images/06-create-automl4.png)
 
