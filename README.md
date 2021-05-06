@@ -2,7 +2,10 @@
 
 The Operationlalizing Machine Learning project is part of the Machine Learning Engineer with Microsoft Azure Nanodegree Program on Udacity.
 
-In the project we demonstrate to build a Machine Learning model, deploy the model into production and consume the model via an API. 
+In the project we demonstrate to build a Machine Learning model using AutoML, deploy the model into production and consume the model via an API. 
+
+We use the *Bank Marketing* dataset to train the model, which is related with direct marketing campaigns of a Portuguese banking institution. The best model will then be used to predict whether the client subscribed a term deposit based on various input parameters. 
+
 This is been achieved in two different ways:
 1. Manually within the the Azure Machine Learning Studio
 2. In Python by using the SDK
