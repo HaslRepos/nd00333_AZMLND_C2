@@ -128,11 +128,11 @@ Running the Python Script enables *Application Insights*.
 Azure provides documentation (swagger.json file) of the web services deployed in ML Studio, explaining the different request types (such as POST and GET). 
 Swagger is an Interface Description Language for describing RESTful APIs expressed using JSON. (Wiki)
 
-*Model's endpoint Swagger documentation*
+**Model's endpoint Swagger documentation**
 
 ![Swagger](images/18-swagger.png)
 
-*More details...*
+**More details...**
 
 ![Swagger](images/19-swagger2.png)
 
@@ -194,7 +194,7 @@ data = {"data":
     }
 '''
 
-*The Model's response*
+**The Model's response**
 
 ![Consume Endpoint](images/20-consume-endpoint.png)
 
@@ -219,26 +219,24 @@ We use a Jupyter Notebook (Source Code: [aml-pipelines-with-automated-machine-le
 
 During runtime we get a lot of logging and status information in the SDK.
 
-*Run Details*
+**Run Details**
 
 ![Run Details](images/22-create-pipeline-run-details.png)
 
-*Pipeline created*
+**Pipeline created**
 
 ![Create pipeline](images/22-create-pipeline2.png)
 
 
 Alternatively we can also access the console in Azure ML Studio to retrieve this information:
 
-![Pipeline](images/23-pipeline3.png)
-
+**Pipeline Run Overview**
 
 ![Pipeline](images/24-pipeline2.png)
 
+**Published Pipeline Overview**
 
 ![Pipeline Endpoint](images/25-pipeline-endpoint.png)
-
-
 
 
 ## Screen Recording
