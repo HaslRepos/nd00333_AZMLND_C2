@@ -212,7 +212,7 @@ Alternatively we can also access the console in Azure ML Studio to retrieve this
 ![Pipeline](images/24-pipeline2.png)
 
 
-
+![Pipeline Endpoint](images/25-pipeline-endpoint.png)
 
 
 
