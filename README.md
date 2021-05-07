@@ -243,8 +243,7 @@ Alternatively we can also access the console in Azure ML Studio to retrieve this
 
 A Screen Recording of the project is available on Google Drive:
 
-[Screencast](https://drive.google.com/file/d/1Q4mb2UiF-ariXywD1DgUTmd5qpm69wsS/view?usp=sharing)
-
+[Screencast](https://drive.google.com/file/d/1G-9K7uaeOeMI_3Y4qiKA81fNVq06-OnU/view?usp=sharing)
 
 ## Standout Suggestions
 
